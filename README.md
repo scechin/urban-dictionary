@@ -1,5 +1,6 @@
 # Urban Dictionary Terminal App
 
+![Urban Dictionary Terminal App](https://github.com/breatheco-de/english-dictionary-project-tutorial/blob/master/preview.gif?raw=true)
 
 The [Urban Dictionary](https://www.urbandictionary.com/) is an amazing resource for english language lovers; It features the accurate definitions of words, not like other services like Wikipedia, Oxford, etc.
 
