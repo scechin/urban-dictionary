@@ -46,7 +46,7 @@ Don't forget to add the `headers` with the API credentials, please refer to [the
 5. Show the definition on the terminal.
 6. Store the definition in a JSON file.
 
-### 🍾 Aditional PERKS
+### 🍾 Additional PERKS
 
 1. Cache system: If the user asks for the same word again, instead of calling the API again you should have the previous reposnes stored in a `dict`.
 2. Look for multiple words separated by comma.
