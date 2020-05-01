@@ -1,0 +1,12 @@
+{
+	"slug" : "urban-dictionary-cli",
+	"title" : "Create a Dictionary Terminal APP",
+	"description": "Conect to the UrbanDictionary.com API to create an app that can be used from the terminal to retrieve meanings of words",
+	"preview": "https://github.com/breatheco-de/urban-dictionary-project-tutorial/blob/master/preview.gif?raw=true",
+	"status": "published",
+	"duration" : 4,
+	"difficulty": "easy",
+   "solution": "https://github.com/breatheco-de/urban-dictionary-project-tutorial/tree/solution",
+	"technologies": ["python", "terminal", "command line", "http", "http.request", "apis"],
+	"talents": []
+}
