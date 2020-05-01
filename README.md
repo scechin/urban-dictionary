@@ -2,14 +2,15 @@
 
 ![Urban Dictionary Terminal App](https://github.com/breatheco-de/english-dictionary-project-tutorial/blob/master/preview.gif?raw=true)
 
-The [Urban Dictionary](https://www.urbandictionary.com/) is an amazing resource for english language lovers; It features the accurate definitions of words, not like other services like Wikipedia, Oxford, etc.
+The [Urban Dictionary](https://www.urbandictionary.com/) is an amazing resource for english language lovers; It features the accurate definitions of words, not like other services like Wikipedia, Oxford, etc. 😅
 
-in this project your are going to build a terminal based (CLI) dictionary.
+In this project your are going to build a terminal based (CLI) dictionary.
 
 ### Before you begin
 
 1. Register a [RapidAPI.com](https://rapidapi.com/) account and make your to request a key for the [urban dictionary API](https://rapidapi.com/community/api/urban-dictionary).
 2. Watch this 15 min video to [understand pipenv](https://www.youtube.com/watch?v=6Qmnh5C4Pmo), the python package manager.
+3. Watch this 10 min video on [what are API Keys and credentials](https://www.youtube.com/watch?v=InoAIgBZIEA).
 
 ### Running the boilerplate
 
@@ -48,7 +49,8 @@ Don't forget to add the `headers` with the API credentials, please refer to [the
 ### 🍾 Aditional PERKS
 
 1. Cache system: If the user asks for the same word again, instead of calling the API again you should have the previous reposnes stored in a `dict`.
-2. Use `sys.argv` to allow the user to ask for a definition like this:
+2. Look for multiple words separated by comma.
+3. Use `sys.argv` to allow the user to ask for a definition like this:
 
 ```python
 # "enjoy" is the word the user is looking up the definition
@@ -57,5 +59,5 @@ $ pipenv run python app.py enjoy
 
 Hint: [how to use the sys.argv](https://www.pythonforbeginners.com/system/python-sys-argv)
 
-3. Look for multiple words separated by comma.
+
 
