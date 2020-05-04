@@ -48,7 +48,7 @@ Don't forget to add the `headers` with the API credentials, please refer to [the
 
 ### 🍾 Additional PERKS
 
-1. Cache system: If the user asks for the same word again, instead of calling the API again you should have the previous reposnes stored in a `dict`.
+1. Cache system: If the user asks for the same word again, instead of calling the API again you should have the previous responses stored in a `dict`.
 2. Look for multiple words separated by comma.
 3. Use `sys.argv` to allow the user to ask for a definition like this:
 
