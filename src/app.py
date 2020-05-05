@@ -10,3 +10,15 @@ API_HOST = os.getenv("API_HOST")
 API_KEY = os.getenv("API_KEY")
 
 # continue with your application here
+#import requests
+
+#querystring = {"term":"wat"}
+term = input("What word are you looking for?")
+headers = {
+    'x-rapidapi-host': "mashape-community-urban-dictionary.p.rapidapi.com",
+    'x-rapidapi-key': "cedaa06fa5mshba41d17e1cd8779p13246bjsn7f0823653c3b"
+    }
+
+response = requests.get(API_HOST+"/define?term="+term, headers=headers)
+body = response.json()
+print(body)
